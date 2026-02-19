@@ -1,6 +1,6 @@
-# 🎓 Netology DevOps Portfolio (x-optima)
+# 🎓 Netology DevOps Portfolio (x-optima) 
 
-**20+ проектов Нетология 2025–2026**: GitLab/Yandex Cloud, RabbitMQ, ELK, HA-кластеры, мониторинг, disaster recovery, Jenkins CI/CD, rsync, GitHub Actions.
+**22+ проектов Нетология 2025–2026**: GitLab/Yandex Cloud, RabbitMQ, ELK, HA-кластеры, мониторинг, disaster recovery, Jenkins CI/CD, rsync, GitHub Actions, **PostgreSQL 3NF**.
 
 ## 🚀 CI/CD & IaC
 | Проект | Описание | Ссылка |
@@ -15,9 +15,9 @@
 ## 🐰 Messaging & БД
 | Проект | Описание | Ссылка |
 |--------|----------|--------|
+| **PostgreSQL 3NF** | **Нормализованная БД сотрудников (6 таблиц)** | **[database1](https://github.com/x-optima/database1)** |
 | RabbitMQ | HA кластер | [rabbitmq](https://github.com/x-optima/rabbitmq) |
 | Кэш Redis | Кэширование | [cache](https://github.com/x-optima/cache) |
-| PostgreSQL | База данных | [database](https://github.com/x-optima/database) |
 
 ## 📊 Мониторинг (5 проектов)
 | Проект | Описание | Ссылка |
