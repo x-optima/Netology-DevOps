@@ -1,47 +1,37 @@
 # 🎓 Netology DevOps Portfolio (x-optima) 
+[![GitHub stars](https://img.shields.io/github/stars/x-optima/Netology-DevOps)](https://github.com/x-optima/Netology-DevOps)
+[![GitHub forks](https://img.shields.io/github/forks/x-optima/Netology-DevOps)](https://github.com/x-optima/Netology-DevOps)
 
-**22+ проектов Нетология 2025–2026**: GitLab/Yandex Cloud, RabbitMQ, ELK, HA-кластеры, мониторинг, disaster recovery, Jenkins CI/CD, rsync, GitHub Actions, **PostgreSQL 3NF**.
+**28+ проектов Нетология 2025–2026**: GitLab/Yandex Cloud CI/CD, **PostgreSQL 3NF**, RabbitMQ HA, ELK Stack, Prometheus/Grafana, Jenkins, HAProxy/Keepalived, disaster recovery, GitHub Actions, **SQL оптимизация**.
 
-## 🚀 CI/CD & IaC
-| Проект | Описание | Ссылка |
-|--------|----------|--------|
-| GitLab + Yandex Cloud | CI/CD пайплайны Terraform | [gitlab-yc](https://github.com/x-optima/gitlab-yc) |
-| Jenkins | CI/CD практика | [jenkins-dz1](https://github.com/x-optima/jenkins-dz1) |
-| GitHub Actions HW4 | Автоматизация репозиториев | [github-hw4](https://github.com/x-optima/github-hw4) |
-| GitHub Actions HW3 | Практика workflow | [github-hw3](https://github.com/x-optima/github-hw3) |
-| GitHub Actions HW2 | Sys pattern homework | [github-hw2](https://github.com/x-optima/github-hw2) |
-| GitHub Actions HW1 | Базовая автоматизация | [github-hw](https://github.com/x-optima/github-hw) |
+![DevOps Stack](https://img.shields.io/badge/Tech-Stack-00D2FF?style=flat&logo=devops&logoColor=white)
 
-## 🐰 Messaging & БД
-| Проект | Описание | Ссылка |
-|--------|----------|--------|
-| **PostgreSQL 3NF** | **Нормализованная БД сотрудников (6 таблиц)** | **[database1](https://github.com/x-optima/database1)** |
-| RabbitMQ | HA кластер | [rabbitmq](https://github.com/x-optima/rabbitmq) |
-| Кэш Redis | Кэширование | [cache](https://github.com/x-optima/cache) |
+---
 
-## 📊 Мониторинг (5 проектов)
-| Проект | Описание | Ссылка |
-|--------|----------|--------|
-| Prometheus/Grafana | Мониторинг4 | [мониторинг4](https://github.com/x-optima/monitoring4) |
-| Zabbix | Мониторинг3 | [мониторинг3](https://github.com/x-optima/monitoring3) |
-| Логирование | Мониторинг2 | [мониторинг2](https://github.com/x-optima/monitoring2) |
-| ELK Stack | Docker логи | [elk](https://github.com/x-optima/elk) |
-| Мониторинг1 | Базовый | [мониторинг](https://github.com/x-optima/monitoring) |
+## 🚀 Быстрый обзор портфолио
 
-## 🔄 HA & Load Balancing
-| Проект | Описание | Ссылка |
-|--------|----------|--------|
-| HAProxy/Keepalived | Балансировщик | [cloud_balancer](https://github.com/x-optima/cloud_balancer) |
-| Кластер HSRP/VRRP | HA симуляция | [cluster](https://github.com/x-optima/cluster) |
+| Категория | Кол-во проектов | Технологии |
+|-----------|----------------|------------|
+| **CI/CD & IaC** | **7** | GitLab CI, Jenkins, GitHub Actions, Terraform |
+| **PostgreSQL & БД** | **4** | **PostgreSQL 3NF**, MySQL Sakila, SQL оптимизация |
+| **Мониторинг** | **5** | Prometheus, Grafana, Zabbix, ELK Stack |
+| **Messaging** | **2** | RabbitMQ HA, Redis Cache |
+| **HA & Load Balancing** | **2** | HAProxy, Keepalived VRRP |
+| **Backup & Recovery** | **2** | Rsync, Disaster Recovery |
 
-## 💾 Backup & Recovery
-| Проект | Описание | Ссылка |
-|--------|----------|--------|
-| Rsync | Синхронизация данных | [rsync](https://github.com/x-optima/rsync) |
-| Disaster Recovery 1 | Восстановление | [disaster1](https://github.com/x-optima/disaster1) |
+---
 
-## 📂 Прочее
-| Проект | Описание | Ссылка |
-|--------|----------|--------|
-| Новый репозиторий | Тестовый Shell проект | [new-repo](https://github.com/x-optima/new-repo) |
-| Netology DevOps | Основной портфолио репозиторий | [Netology-DevOps](https://github.com/x-optima/Netology-DevOps) |
+## 📁 Репозитории (по активности ↓)
+
+| Репозиторий | Описание | Обновлен |
+|-------------|----------|----------|
+| [![indexes](https://img.shields.io/badge/indexes-PG%2FMySQL-blue)](https://github.com/x-optima/indexes) | **PostgreSQL/MySQL индексы (GIN, BRIN)** | **5 мин назад** |
+| [![sql2](https://img.shields.io/badge/sql2-EXPLAIN%20ANALYZE-blue)](https://github.com/x-optima/sql2) | **SQL оптимизация (100x speedup)** | **4 часа назад** |
+| [![sql1](https://img.shields.io/badge/sql1-Sakila-blue)](https://github.com/x-optima/sql1) | Sakila агрегатные функции | **6 часов назад** |
+| [![database2](https://img.shields.io/badge/database2-ERD-blue)](https://github.com/x-optima/database2) | Database Design + ER-диаграммы | **7 часов назад** |
+| [![database1](https://img.shields.io/badge/PostgreSQL-3NF-green)](https://github.com/x-optima/database1) | **Нормализованная БД (6 таблиц)** | **3 дня назад** |
+
+---
+
+## 🐘 **PostgreSQL 3NF — Нормализованная БД**
+
