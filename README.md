@@ -2,7 +2,7 @@
 
 Практические DevOps-проекты за 2025–2026: инфраструктура в облаке, автоматизация, CI/CD, мониторинг, базы данных, отказоустойчивость и безопасность.
 
-**67 репозиториев** на GitHub ([все](https://github.com/x-optima?tab=repositories)) · **64 собственных** · **автор:** [Виталий · x-optima](https://github.com/x-optima/x-optima)
+**67 репозиториев** на GitHub https://github.com/x-optima?tab=repositories · **автор:** [Виталий · x-optima](https://github.com/x-optima/x-optima)
 
 ---
 
