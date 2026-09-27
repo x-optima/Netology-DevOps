@@ -2,7 +2,7 @@
 
 Практические DevOps-проекты за 2025–2026: инфраструктура в облаке, автоматизация, CI/CD, мониторинг, базы данных, отказоустойчивость и безопасность.
 
-**59 репозиториев** на GitHub ([все](https://github.com/x-optima?tab=repositories)) · **56 собственных** · **автор:** [Виталий · x-optima](https://github.com/x-optima/x-optima)
+**67 репозиториев** на GitHub ([все](https://github.com/x-optima?tab=repositories)) · **64 собственных** · **автор:** [Виталий · x-optima](https://github.com/x-optima/x-optima)
 
 ---
 
@@ -16,6 +16,8 @@
 | CI/CD и Git | [CI/CD и Git](#cicd-и-git) |
 | Мониторинг и логи | [Мониторинг и логи](#мониторинг-и-логи) |
 | БД, отказоустойчивость, backup | [PostgreSQL и SQL](#postgresql-и-sql), [HA / DR / Backup](#ha--dr--backup) |
+| Kubernetes | [Kubernetes](#kubernetes) |
+| Микросервисы | [Микросервисы](#микросервисы) |
 
 ---
 
@@ -25,7 +27,8 @@
 |---------|------------|
 | Облако / IaC | Yandex Cloud, Terraform, Ansible |
 | CI/CD | GitLab CI, TeamCity, Jenkins, GitHub Actions |
-| Контейнеры / HA | Docker, Compose, HAProxy, Keepalived |
+| Контейнеры / HA | Docker, Compose, Kubernetes, HAProxy, Keepalived |
+| Микросервисы | API Gateway, NGINX, Vector, Prometheus, Grafana |
 | Мониторинг и логи | Prometheus, Grafana, Zabbix, ELK, Filebeat, Vector, Alertmanager, TICK |
 | Базы данных | PostgreSQL, MySQL, Redis, RabbitMQ, ClickHouse |
 | Безопасность | hardening хоста, SSH, firewall, fail2ban |
@@ -52,6 +55,13 @@
 | Логирование | [monlog3](https://github.com/x-optima/monlog3) | Elastic Stack 8.x: hot/warm ES, Logstash, Kibana, Filebeat | Elasticsearch · Logstash · Kibana · Filebeat · Docker |
 | Логирование | [elk](https://github.com/x-optima/elk) | Централизованные логи в Docker | ELK · Docker · Kibana |
 | Безопасность | [protecthost](https://github.com/x-optima/protecthost) | Hardening Linux-хоста | SSH · firewall · fail2ban |
+| | Kubernetes | [kubernetes1](https://github.com/x-optima/kubernetes1) | MicroK8S · kubectl · установка · dashboard | Kubernetes · MicroK8S · kubectl |
+| | Kubernetes | [kubernetes2](https://github.com/x-optima/kubernetes2) | Pod · Service · port-forward · развёртывание | Kubernetes · Pod · Service |
+| | Kubernetes | [kubernetes3](https://github.com/x-optima/kubernetes3) | Deployment · Service · init-контейнеры · масштабирование | Kubernetes · Deployment · Service · Init-container |
+| | Kubernetes | [kubernetes4](https://github.com/x-optima/kubernetes4) | ClusterIP · NodePort · Ingress · сеть | Kubernetes · ClusterIP · NodePort · Ingress |
+| | Kubernetes | [kubernetes5](https://github.com/x-optima/kubernetes5) | emptyDir · PV · PVC · StorageClass · хранение | Kubernetes · PersistentVolume · StorageClass |
+| | Микросервисы | [microservices1](https://github.com/x-optima/microservices1) | API Gateway на NGINX + Docker Compose | NGINX · Docker Compose · Flask · MinIO |
+| | Микросервисы | [microservices2](https://github.com/x-optima/microservices2) | Логирование и мониторинг микросервисов | Vector · ELK · Prometheus · Grafana |
 
 ---
 
@@ -166,6 +176,30 @@
 | [rabbitmq](https://github.com/x-optima/rabbitmq) | RabbitMQ · очереди · pub/sub |
 
 ---
+## Kubernetes
+
+От установки MicroK8S до хранения данных, сети и запуска приложений в кластере.
+
+| Проект | Навыки |
+|--------|--------|
+| [kubernetes1](https://github.com/x-optima/kubernetes1) | MicroK8S · kubectl · установка · dashboard |
+| [kubernetes2](https://github.com/x-optima/kubernetes2) | Pod · Service · port-forward · развёртывание |
+| [kubernetes3](https://github.com/x-optima/kubernetes3) | Deployment · Service · init-контейнеры · масштабирование |
+| [kubernetes4](https://github.com/x-optima/kubernetes4) | ClusterIP · NodePort · Ingress · сетевое взаимодействие |
+| [kubernetes5](https://github.com/x-optima/kubernetes5) | emptyDir · PersistentVolume · PVC · StorageClass |
+
+---
+
+## Микросервисы
+
+API Gateway, логирование и мониторинг микросервисной архитектуры.
+
+| Проект | Навыки |
+|--------|--------|
+| [microservices1](https://github.com/x-optima/microservices1) | API Gateway · NGINX · Docker Compose · Flask · MinIO |
+| [microservices2](https://github.com/x-optima/microservices2) | Vector · ELK · Prometheus · Grafana · микросервисы |
+
+---
 
 ## Виртуализация
 
@@ -201,6 +235,8 @@
 | [new-repo](https://github.com/x-optima/new-repo) | Git · тренировочный репозиторий |
 | [github-hw2](https://github.com/x-optima/github-hw2) | материалы по Git *(fork)* |
 | [jenkins-dz1](https://github.com/x-optima/jenkins-dz1) | материалы по Jenkins *(fork)* |
+| | [pobeda_practice1](https://github.com/x-optima/pobeda_practice1) | Flask · бэкенд · фронтенд · практика в агентстве «Победа» |
+| | [tivali-api-tests](https://github.com/x-optima/tivali-api-tests) | pytest · автотесты API · JSONPlaceholder |
 
 ---
 
